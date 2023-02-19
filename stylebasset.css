@@ -1,0 +1,45 @@
+@media  (max-width: 321px) and (max-width: 786px){
+    
+    }
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 1000px 40px;
+    
+}
+
+
+header{
+    background-color: linen;
+    width: auto;
+    height: 250px;
+}
+
+footer{
+    background-color: blanchedalmond;
+     width: auto;
+    height: 30px;
+    display: flex; justify-content: space-around;
+}
+
+
+ul{
+    list-style: none;
+    display: flex; justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+#logo{
+    display: flex; 
+    flex-direction: row;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px ;
+}
+
